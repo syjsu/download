@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>魔法编程 |下载中心 - 专业的少儿编程免费学习平台</title>
+        <meta name="description" content="M+ Lab M+Lab m+lab m+ lab 创新实验室 编程实验室 儿童实验室 青少年实验室 【M+ Lab】创新实验室 魔法编程 科技实验室 青少年科技">
+        <meta name="keywords" content="M+ Lab M+Lab m+lab m+ lab 创新实验室 编程实验室 儿童实验室 青少年实验室 【M+ Lab】创新实验室 魔法编程 科技实验室 青少年科技">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+        <meta name="author" content="艾想科技">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <meta http-equiv="Cache-Control" content="no-transform ">
+        <link rel="shortcut icon" href="./index_files/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./index_files/official.min.css">
+        <link rel="stylesheet" href="./index_files/laypage.css">
+        <link rel="stylesheet" href="./index_files/confirm.css">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <meta http-equiv="Cache-Control" content="no-transform ">
+        <link rel="stylesheet" href="./index_files/lab.css">
+        <link rel="stylesheet" href="./index_files/pagination.css">
+        <link rel="stylesheet" href="./index_files/download.css">
+        <link rel="stylesheet" href="./index_files/layer.css" id="layuicss-layer">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-bg">
+                <img src="./index_files/lab_detail_bg.png" class="lazy" data-original="./index_files/lab_detail_bg.png" alt="" width="100%" height="100%" style="display: inline;">
+            </div>
+            <div class="header-nav">
+                <div class="nav-logo" onclick="location.href = ctx+&#39;/index&#39;;">
+                    <img src="./index_files/logo.svg" class="lazy" data-original="./index_files/logo.svg" alt="" width="100%" height="100%" style="display: inline;">
+                </div>
+                <ul class="nav-menu">
+                    <li id="navMenuIndex">
+                        <a href="#/web/index">首页</a>
+                    </li>
+                    <li id="navMenuHacker">
+                        <a href="#/web/private/navMenuHacker">云学习平台</a>
+                    </li>
+                    <li id="navMenuMaker">
+                        <a href="#/web/makerCourse">DIY魔袋</a>
+                    </li>
+                    <li id="navMenuLab">
+                        <a href="#/web/lab">实验室加盟</a>
+                    </li>
+                    <li id="navMenuMatch">
+                        <a href="#/web/match">比赛活动</a>
+                    </li>
+                    <li id="navMenuDownload">
+                        <a href="#/web/download" target="_blank" class="active">下载中心</a>
+                    </li>
+                    <!--<div class="nav-user">
+                      <div class="user-pic-new" style="position:relative;height: 80px;padding: 20px;cursor: pointer;" onclick="//error.show('系统升级中...');">
+                        <div class="pic" >
+                          <img src="http://qiniu.img.webvideo.xthinking.net/avator2.png" alt="" width="40px" height="40px" >
+                        </div>
+                      </div>
+                    </div>-->
+                    <div class="nav-user">
+                        <div class="user-login" style="display: block;">
+                            <span style="margin-right: 12px">
+                                <a href="#/web/user/login">登录</a>
+                            </span>
+                            <span>
+                                <a href="#/web/download#" id="toRegister">注册</a>
+                            </span>
+                        </div>
+                        <div class="user-pic" style="z-index: 10; display: none;" onclick="/*location.href = &#39;/web/user/account&#39;*/">
+                            <div class="pic">
+                                <img src="#/web/download" class="lazy" data-original="./index_files/favicon.png" alt="" width="40px" height="40px">
+                            </div>
+                            <div class="pic-oper">
+                                <div class="oper-img">
+                                    <img src="./index_files/favicon.png" alt="" width="60px" height="60px">
+                                </div>
+                                <div class="oper-name"></div>
+                                <!--<div class="oper">
+                                  <ul class="clearfix">
+                                    <li onclick="location.href = '/web/user/mycourse';event.stopPropagation();">我的课程</li>
+                                    <li onclick="location.href = '/web/user/account';event.stopPropagation();">账号设置</li>
+                                    <li onclick="location.href = '/web/user/coupon';event.stopPropagation();">优惠券</li>
+                                    <li onclick="location.href = '/web/user/order';event.stopPropagation();">订单信息</li>
+                                  </ul>
+                                </div>-->
+                                <div class="oper-exit">
+                                    <span id="logout">退出登录</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="download-carousel"></div> -->
+        <div class="download-resource">
+            <ul class="resource-type">
+                <li class="active" data-id="software">软件下载</li>
+                <li data-id="source" class="sourceCenter">素材库</li>
+            </ul>
+        </div>
+
+        <div class="type-item type-software clearfix" id="software">
+            <!--             
+            <div class="software-item">
+                <div class="item-cont">
+                    <div class="cont-img">
+                        <img src="./index_files/GeoGebraCalculator.png" class="lazy" data-original="https://static-xthinking-download.oss-cn-shenzhen.aliyuncs.com/software/images/GeoGebraCalculator.png" alt="" width="100%" height="100%" style="border-radius: 10px; display: inline;">
+                    </div>
+                    <div class="cont-desc">
+                        <div class="title">GeoGebra Calculator</div>
+                        <p title="GeoGebra Calculator 是一款免费的数学教学软件， 用于绘图计算, 几何作图, 白板协作等等。GeoGebra是自由且跨平台的动态数学软件，提供各级教育使用，包含了几何、代数、表格、图形、统计和微积分，集中在一个容易使用的软件。曾获得数个欧洲和美国的教育软件大奖。其绘图的基本元素包括点，直线，线段，多边形，向量，圆锥曲线和函数。">GeoGebra Calculator 是一款免费的数学教学软件， 用于绘图计算, 几何作图, 白板协作等等。GeoGebra是自由且跨平台的动态数学软件，提供各级教育使用，包含了几何、代数、表格、图形、统计和微积分，集中在一个容易使用的软件。曾获得数个欧洲和美国的教育软件大奖。其绘图的基本元素包括点，直线，线段，多边形，向量，圆锥曲线和函数。</p>
+                    </div>
+                </div>
+                <div class="item-btn" id="item-btn37">
+                    <span data-resource-url="https://www.geogebra.org/calculator?lang=zh-CN">编写代码</span>
+                </div>
+            </div> 
+            -->
+
+        </div>
+
+        <div class="type-item type-source clearfix" id="source" style="display: none">
+            <div class="file-search">
+                <input type="text" maxlength="6" id="searchInfo">
+                <span id="iconSearch">
+                    <img src="./index_files/icon-search.png" alt="" width="100%" height="100%">
+                </span>
+            </div>
+            <ul class="source-main" id="sourceNav">
+
+            </ul>
+            <ul class="source-second sourSec hide" id="sourceSec">
+
+            </ul>
+            <div class="source-cont" id="sourceCont">
+
+                <div class="loading">
+                    <img src="./index_files/loading.gif" alt="">
+                </div>
+            </div>
+            <div class="page"></div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <div class="footer-nav">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#/web/index">首页</a>
+                    </li>
+                    <li>
+                        <a href="#/web/private/navMenuHacker">云学习平台</a>
+                    </li>
+                    <li>
+                        <a href="#/web/makerCourse">DIY魔袋</a>
+                    </li>
+                    <li>
+                        <a href="#/web/lab">实验室加盟</a>
+                    </li>
+                    <!--<li><a href="/web/quan">黑客卡专区</a></li>-->
+                    <li>
+                        <a href="#/web/match">比赛活动</a>
+                    </li>
+                    <!--<li><a href="/web/aboutus">关于艾想</a></li>-->
+                    <!--<li><a href="/web/download">下载中心</a></li>-->
+                </ul>
+                <div class="nav-copy-right" style="height: 60px;line-height: 24px;">
+                    <span>广州艾想电子科技有限公司</span>
+                    <span>CopyRight ©2015-2019艾想科技XThinking Technology Ltd.
+                        <a target="_blank" href="http://www.beian.miit.gov.cn/">粤ICP备15075658号</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!--引入公共js-->
+        
+        <!-- <script src="./index_files/tingyun-rum.js"></script> -->
+        <script src="./index_files/jquery-1.12.4.min.js"></script>
+        <script>
+            if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};
+        </script>
+        <!-- <script src="./index_files/jquery.cookie.min.js"></script>
+        <script src="./index_files/bootstrap.min.js"></script>
+        <script src="./index_files/jquery-session.js"></script> -->
+        <script src="./index_files/lazyload-min.js"></script>
+        <script src="./index_files/mustache.min.js"></script>
+        <!-- <script src="./index_files/layer.js"></script>
+        <script src="./index_files/official.min.js"></script>
+        <script src="./index_files/jquery-weui.js"></script>
+        <script src="./index_files/chplayer.js"></script>
+        <script src="./index_files/laypage.js"></script>
+        <script src="./index_files/confirm.js"></script>
+        <script src="./index_files/FileSaver.min.js"></script> -->
+
+        <!--
+        <script>
+            var meunInit = function () {
+                var id = 'navMenuDownload';
+                if (id) {
+                    $('#' + id + '>a').addClass('active');
+                }
+            }
+        </script>
+
+        -->
+
+        <script type="text/template" id="firstTpl">
+            <div class="software-item">
+              <div class="item-cont">
+                  <div class="cont-img">
+                      <img src="" class="lazy" data-original="{{data.src}}" alt="" width="100%" height="100%">
+                  </div>
+                  <div class="cont-desc">
+                      <div class="title">{{data.name}}</div>
+                      <p title="{{data.detail}}">{{data.detail}}</p>
+                  </div>
+              </div>
+              <div class="item-btn" id="item-btn{{data.id}}">
+
+              </div>
+          </div>
+        </script>
+        <script type="text/template" id="type1Tpl">
+            <span data-resource-url="{{data.src}}">{{data.name}}</span>
+        </script>
+        <script type="text/template" id="type2Tpl">
+            <span onclick="window.open('{{data.src}}')">{{data.name}}</span>
+        </script>
+        <script type="text/template" id="sourceLi">
+            <div class="cont-item {{typeCss}}" id="{{data.id}}">
+                <div class="item-img">
+                    <img src="" class="lazy" data-original="{{bgUrl}}" alt="" title="{{desc}}" width="100%" height="100%" data-resource="{{data.preview}}">
+                </div>
+                <div class="item-name">
+                    <div class="text">{{data.name}}</div>
+                    <a href="#" class="download" onclick="getFileContent('{{data.preview}}','{{data.name}}')">下载</a>
+                </div>
+            </div>
+        </script>
+        <script type="text/template" id="sourceVoice">
+            <div class="cont-item">
+                <div class="item-img">
+                    <audio src="{{data.preview}}"></audio>
+                </div>
+                <div class="item-name">
+                    {{data.name}}
+                </div>
+            </div>
+        </script>
+        <script type="text/template" id="sourceTpl">
+            <li data-type="{{data.id}}" data-id="{{data.id}}">{{data.name}}</li>
+        </script>
+                <script type="text/template" id="sourceSecTpl">
+                    <li data-type="{{data.id}}">{{data.name}}</li>
+        </script>
+
+        <!-- <script src="./index_files/lab.js"></script> -->
+        <!-- <script src="./index_files/pagination.js"></script> -->
+        <script src="./index_files/download.js"></script>
+        
+    </body>
+</html>

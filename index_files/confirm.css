@@ -1,0 +1,32 @@
+.layui-layer{
+    -webkit-border-radius: 10px 10px 10px 10px !important;
+    -moz-border-radius: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px !important;
+}
+.error-title{
+    margin: 45px auto 23px;
+    overflow: hidden;
+}
+.error-img{
+    float: left;
+    margin: 2px 10px 0 50px;
+    width: 20px;
+    height: 20px;
+}
+.error-msg{
+    font-size: 18px;
+    color: #47494a;
+}
+.confirm-btn{
+    display: inline-block;
+    margin: 0 0  20px 16%;
+    width: 25%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #47494a;
+    background: #ffe009;
+    border-radius: 5px;
+    cursor: pointer;
+}
